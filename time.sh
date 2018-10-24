@@ -1,6 +1,6 @@
 #!/bin/bash
 h=`date +%H`
-
+#%H is used to access current pc time
 if [ $h -lt 12 ]; then
   echo Good morning
   echo morning message
