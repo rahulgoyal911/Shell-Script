@@ -12,7 +12,8 @@ else
 echo -e " $third is greater number"
 fi
 else
-if [ $second -gt $third ]; then
+if [ $second -gt $third ];
+then
 echo -e " $second is greater number"
 else
 echo -e " $third is greater number"
